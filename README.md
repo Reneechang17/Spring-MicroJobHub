@@ -34,10 +34,10 @@
 - Zipkin is used for distributed tracing, helping to pinpoint failures or bottlenecks across microservices by tracing requests from end to end.
 ![Zipkin](https://github.com/Reneechang17/Spring-MicroJobHub/blob/main/static/progress2/Distributed%20Tracing%20with%20Zipkin.png)
 
-  - Below diagram shows how trace and span IDs are used in Zipkin to track requests.
+  - Below diagram shows how trace and span IDs are used in Zipkin to track request.
   ![Zipkin tracing progress](https://github.com/Reneechang17/Spring-MicroJobHub/blob/main/static/progress2/Tracing%20with%20Trace%20and%20Span%20IDs.png)
 
-- Integrated Config Server allows centralized management of configurations across microservices which fetches configurations from a Git repository
+- Integrated Config Server allows centralized management of configurations across microservices which fetches configurations from a Git repository.
 ![Config Server](https://github.com/Reneechang17/Spring-MicroJobHub/blob/main/static/progress2/Spring%20Cloud%20Config%20Server.png)
 
 - Services running at(local):
@@ -49,22 +49,27 @@
 | `configserver`     | `:8080` |
 
 ### Progress 3: API Gateway & Resilience4J & RabbitMQ
+- Spring Cloud Gateway routes external requests to appropriate microservices, providing a single entry point for the system.
+![Zipkin tracing progress](https://github.com/Reneechang17/Spring-MicroJobHub/blob/main/static/progress2/Tracing%20with%20Trace%20and%20Span%20IDs.png)
+
+- Resilience4J uses a circuit breaker to monitor service health and manage traffic with a rate limiter, preventing overload and maintaining service availability.
+![Zipkin tracing progress](https://github.com/Reneechang17/Spring-MicroJobHub/blob/main/static/progress2/Tracing%20with%20Trace%20and%20Span%20IDs.png)
+
+- RabbitMQ use for decoupled communication between services. 
+  - The Review service acts as a producer, sending rating information to the Company service.
+  - And Company service acts as a consumer. 
+![Zipkin tracing progress](https://github.com/Reneechang17/Spring-MicroJobHub/blob/main/static/progress2/Tracing%20with%20Trace%20and%20Span%20IDs.png)
+
+- Services running at(local):
+
+| Service            | PORT    |
+| ------------------ | ------- |
+| `gateway`          | `:8084` |
+| `rabbitmq`         | `:15672`|
 
 ### Progress 4: Docker & Kubernetes for Project
 
 
 
 
-Services running at(local):
 
-| Service            | PORT    |
-| ------------------ | ------- |
-| `company-ms`       | `:8081` |
-| `job-ms`           | `:8082` |
-| `review-ms`        | `:8083` |
-| `gateway`          | `:8084` |
-| `pgadmin`          | `:5050` |
-| `configserver`     | `:8080` |
-| `eureka`           | `:8761` |
-| `rabbitmq`         | `:15672`|
-| `zipkin`           | `:9411` |
