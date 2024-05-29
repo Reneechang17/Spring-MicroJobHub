@@ -86,6 +86,8 @@
   - Postgres: Stores application configuration in a centralized manner, allowing services to retrieve and apply configurations dynamically without service restarts.
   - Zipkin & RabbitMQ: Deploys Zipkin for distributed tracing capabilities, RabbitMQ for messaging system to handle communication between services.
 
+- If use k8s, our project do not need API Gateway and Eureka server.
+
 
 
 
