@@ -50,15 +50,15 @@
 
 ### Progress 3: API Gateway & Resilience4J & RabbitMQ
 - Spring Cloud Gateway routes external requests to appropriate microservices, providing a single entry point for the system.
-![Zipkin tracing progress](https://github.com/Reneechang17/Spring-MicroJobHub/blob/main/static/progress2/Tracing%20with%20Trace%20and%20Span%20IDs.png)
+![API Gateway](https://github.com/Reneechang17/Spring-MicroJobHub/blob/main/static/progress3/API%20Gateway.jpg)
 
 - Resilience4J uses a circuit breaker to monitor service health and manage traffic with a rate limiter, preventing overload and maintaining service availability.
-![Zipkin tracing progress](https://github.com/Reneechang17/Spring-MicroJobHub/blob/main/static/progress2/Tracing%20with%20Trace%20and%20Span%20IDs.png)
+![Resilience4J](https://github.com/Reneechang17/Spring-MicroJobHub/blob/main/static/progress3/%20Resilience4J%20.jpg)
 
 - RabbitMQ use for decoupled communication between services. 
   - The Review service acts as a producer, sending rating information to the Company service.
   - And Company service acts as a consumer. 
-![Zipkin tracing progress](https://github.com/Reneechang17/Spring-MicroJobHub/blob/main/static/progress2/Tracing%20with%20Trace%20and%20Span%20IDs.png)
+![RabbitMQ](https://github.com/Reneechang17/Spring-MicroJobHub/blob/main/static/progress3/rabbitmq.jpg)
 
 - Services running at(local):
 
@@ -68,6 +68,20 @@
 | `rabbitmq`         | `:15672`|
 
 ### Progress 4: Docker & Kubernetes for Project
+- Use Docker to containerize services for easy deployment and scalability across different systems. 
+![Docker for project](https://github.com/Reneechang17/Spring-MicroJobHub/blob/main/static/progress4/Docker%20for%20Project.jpg)
+
+- Docker images
+  - company-service: renee6177/companyms
+  - job-service: renee6177/jobms
+  - review-service: renee6177/reviewms
+  - config-service: renee6177/configserver
+  - gateway: renee6177/gateway
+  - server-registry: renee6177/servicereg
+  ![Docker images](https://github.com/Reneechang17/Spring-MicroJobHub/blob/main/static/progress4/Docker%20for%20Project.jpg)
+
+
+
 
 
 
