@@ -80,6 +80,12 @@
   - server-registry: renee6177/servicereg
   ![Docker images](https://github.com/Reneechang17/Spring-MicroJobHub/blob/main/static/progress4/docker%20images.jpg)
 
+- Kubernetes for companyms, jobms and reviewms: Orchestrates container deployment, scaling, and management for efficient and consistent service operation across a cluster, providing automatic load balancing, service discovery, and self-healing capabilities to ensure optimal performance and reliability.
+
+- Kubernetes for Postgres, Zipkin and RabbitMQ
+  - Postgres: Stores application configuration in a centralized manner, allowing services to retrieve and apply configurations dynamically without service restarts.
+  - Zipkin & RabbitMQ: Deploys Zipkin for distributed tracing capabilities, RabbitMQ for messaging system to handle communication between services.
+
 
 
 
