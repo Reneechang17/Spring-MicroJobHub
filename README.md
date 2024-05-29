@@ -15,9 +15,9 @@
 
 ### Progress 1: Monolithic To Microservices
 - The shift from a monolithic to a microservices architecture breaks down a unified application into independent services, enhancing scalability and deployment flexibility. 
-![Listing Page](https://github.com/Reneechang17/Estate-Finder-Pro/blob/main/static/House%20Page%20with%20detail%20info-Estate.jpg)
+![Microservices Architecture](https://github.com/Reneechang17/Spring-MicroJobHub/blob/main/static/progress1/Monolithic%20To%20Microservices.jpg)
 - DTOs facilitate data transfer between these services, optimizing network communication.
-![Listing Page](https://github.com/Reneechang17/Estate-Finder-Pro/blob/main/static/House%20Page%20with%20detail%20info-Estate.jpg)
+![DTOs](https://github.com/Reneechang17/Spring-MicroJobHub/blob/main/static/progress1/DTOs.jpg)
 
 
 
