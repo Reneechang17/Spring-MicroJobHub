@@ -78,7 +78,7 @@
   - config-service: renee6177/configserver
   - gateway: renee6177/gateway
   - server-registry: renee6177/servicereg
-  ![Docker images](https://github.com/Reneechang17/Spring-MicroJobHub/blob/main/static/progress4/Docker%20for%20Project.jpg)
+  ![Docker images](https://github.com/Reneechang17/Spring-MicroJobHub/blob/main/static/progress4/docker%20images.jpg)
 
 
 
