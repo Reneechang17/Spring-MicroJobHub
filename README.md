@@ -19,9 +19,16 @@
 - DTOs facilitate data transfer between these services, optimizing network communication.
 ![DTOs](https://github.com/Reneechang17/Spring-MicroJobHub/blob/main/static/progress1/DTOs.jpg)
 
-
-
 ### Progress 2: Add Server Registry & Spring Cloud Config Server
+- Used a service registry which enabled services like Job and Review to dynamically discover each other for inter-service communication.
+
+- Zipkin is used for distributed tracing, helping to pinpoint failures or bottlenecks across microservices by tracing requests from end to end.
+
+  - Below diagram shows how trace and span IDs are used in Zipkin to track requests.
+
+- Integrated Config Server allows centralized management of configurations across microservices which fetches configurations from a Git repository
+
+
 
 ### Progress 3: API Gateway & Resilience4J & RabbitMQ
 
