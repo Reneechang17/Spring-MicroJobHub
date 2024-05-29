@@ -19,16 +19,34 @@
 - DTOs facilitate data transfer between these services, optimizing network communication.
 ![DTOs](https://github.com/Reneechang17/Spring-MicroJobHub/blob/main/static/progress1/DTOs.jpg)
 
-### Progress 2: Add Server Registry & Spring Cloud Config Server
-- Used a service registry which enabled services like Job and Review to dynamically discover each other for inter-service communication.
+- Services running at(local):
+
+| Service            | PORT    |
+| ------------------ | ------- |
+| `company-ms`       | `:8081` |
+| `job-ms`           | `:8082` |
+| `review-ms`        | `:8083` |
+
+### Progress 2: Add Server Registry(Eureka) & Zipkin & Spring Cloud Config Server
+- Used a service registry(Eureka) which enabled services like Job and Review to dynamically discover each other for inter-service communication.
+![Eureka](https://github.com/Reneechang17/Spring-MicroJobHub/blob/main/static/progress2/Service%20Registry%20Flow.png)
 
 - Zipkin is used for distributed tracing, helping to pinpoint failures or bottlenecks across microservices by tracing requests from end to end.
+![Zipkin](https://github.com/Reneechang17/Spring-MicroJobHub/blob/main/static/progress2/Distributed%20Tracing%20with%20Zipkin.png)
 
   - Below diagram shows how trace and span IDs are used in Zipkin to track requests.
+  ![Zipkin tracing progress](https://github.com/Reneechang17/Spring-MicroJobHub/blob/main/static/progress2/Tracing%20with%20Trace%20and%20Span%20IDs.png)
 
 - Integrated Config Server allows centralized management of configurations across microservices which fetches configurations from a Git repository
+![Config Server](https://github.com/Reneechang17/Spring-MicroJobHub/blob/main/static/progress2/Spring%20Cloud%20Config%20Server.png)
 
+- Services running at(local):
 
+| Service            | PORT    |
+| ------------------ | ------- |
+| `eureka`           | `:8761` |
+| `zipkin`           | `:9411` |
+| `configserver`     | `:8080` |
 
 ### Progress 3: API Gateway & Resilience4J & RabbitMQ
 
