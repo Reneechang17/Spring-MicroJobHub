@@ -89,11 +89,3 @@
 - By deploying the services to Kubernetes cluster, we can access the Job application using internal IP and Nodeport.
 
 - If use k8s, our project do not need API Gateway and Eureka server.
-
-
-
-
-
-
-
-
