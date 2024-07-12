@@ -6,12 +6,8 @@
 - Docker Hub Repository: https://hub.docker.com/repositories/renee6177
 
 ### Technologies Used
-- Programming: Java
-- Frameworks and Tools: Spring Boot, Docker, Kubernetes
-- Service Communication: RabbitMQ, Eureka, API Gateway
-- Database: PostgreSQL, DTOs
-- Monitoring and Testing: Zipkin, Actuator, Postman, JMeter
-- Others: Spring Cloud Config, Resilience4J
+- Programming and Frameworks: Java, Spring Boot, Microservice
+- Tools and Test: PostgreSQL, Actuator, Docker, Kubernetes, RabbitMQ, Eureka, API Gateway, Resilience4J, Github, Zipkin, Postman, JMeter
 
 ### Progress 1: Monolithic To Microservices
 - The shift from a monolithic to a microservices architecture breaks down a unified application into independent services, enhancing scalability and deployment flexibility. 
