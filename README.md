@@ -5,7 +5,7 @@
 
 - Docker Hub Repository: https://hub.docker.com/repositories/renee6177
 
-### Technologies Used
+### Tech Used
 - Programming and Frameworks: Java, Spring Boot, Microservice
 - Tools and Test: PostgreSQL, Actuator, Docker, Kubernetes, RabbitMQ, Eureka, API Gateway, Resilience4J, Github, Zipkin, Postman, JMeter
 
