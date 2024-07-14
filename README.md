@@ -1,7 +1,7 @@
 # Spring Boot and Microservices Project: MicroJobHub
 
 ### Project Introduction
-- **MicroJobHub** is a system that leverages a **Spring Boot microservices** architecture to streamline job application processes. It utilizes **Docker** and **Kubernetes** for scalable deployment and management. Each service have its own database, with **Eureka** for service discovery and **RabbitMQ** for reliable messaging. **Spring Cloud Gateway** directs external requests, **Zipkin** provides distributed tracing for monitoring, and **Spring Cloud Config** manages external configurations centrally. **Resilience4J** introduces resilience patterns such as circuit breakers. MicroJobHub efficiently enhances job application system.
+- **MicroJobHub** is a **Spring Boot-based** **microservices** job portal app, featuring a scalable distributed system, high-performance concurrency, and CI/CD implementation. Each service have its own database, with **Eureka** for service discovery and **RabbitMQ** for reliable messaging. **Spring Cloud Gateway** directs external requests, **Zipkin** provides distributed tracing for monitoring, and **Spring Cloud Config** manages external configurations centrally. **Resilience4J** introduces resilience patterns such as circuit breakers. MicroJobHub efficiently enhances job application system. It utilizes **Docker** and **Kubernetes** for scalable deployment and management.
 
 - Docker Hub Repository: https://hub.docker.com/repositories/renee6177
 
